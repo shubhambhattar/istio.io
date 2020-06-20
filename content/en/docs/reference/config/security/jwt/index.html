@@ -35,8 +35,8 @@ defines the URI to fetch JWKS explicitly.</p>
 
 <pre><code class="language-yaml">issuer: https://example.com
 jwksUri: https://example.com/.secret/jwks.json
-jwtHeaders:
-- &quot;x-goog-iap-jwt-assertion&quot;
+fromHeaders:
+- name: &quot;x-goog-iap-jwt-assertion&quot;
 </code></pre>
 
 <table class="message-fields">
